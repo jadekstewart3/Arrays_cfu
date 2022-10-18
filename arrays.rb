@@ -35,3 +35,12 @@ angel_numbers = [111, 222, 333, 444]
 
  # By calling the array and passing it an index number I am able to access
  # element present in the array.
+
+ # Array method: flatten
+ # EXAMPLE :
+ new_arr = [3, 6, 9, [2, 4, 6]]
+ p new_arr.flatten
+ #=> [ 3, 6, 9, 2, 4, 6]
+ # The flatten method takes a nested array and returns an un-nested array
+# with the same elements.
+
