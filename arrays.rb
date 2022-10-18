@@ -18,3 +18,20 @@ p floats
 # Calling the pop method removes the element in the last index positon.
 booleans.pop
 p booleans
+
+# Index postitions:
+# Describe where an element is positioned in an array.
+# Enable us to access values in an array.
+
+# Here I have declared a variable that stores an array of integers.
+
+angel_numbers = [111, 222, 333, 444]
+
+# In order to access the integers stored in the array. I will call the 
+# array and pass it the index number of the integer I would like to access.
+
+ p angel_numbers[0]
+ #=> 111
+
+ # By calling the array and passing it an index number I am able to access
+ # element present in the array.
